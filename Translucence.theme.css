@@ -10,10 +10,9 @@
  * @invite jzJkA6Z
  */
 
-@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+@import url(https://raw.githubusercontent.com/kingdomkind/Translucence/master/source.css);
 
 :root {
-	--app-bg: ;
 	--app-blur: 6px;
 	--app-margin: 24px;
 	--app-radius: 8px; /*	-	*/
