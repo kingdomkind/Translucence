@@ -1,3 +1,5 @@
+This is a simple fork that mainly changes the settings to my liking and removes the background wallpaper to allow for transpareny fully
+
 # Translucence Theme - [![Paypal][paypal-logo]][paypal-url] [![GitHub][github-logo]][github-url] [![Discord][discord-logo]][discord-url]
 #### A translucent/frosted glass Discord theme
 <hr>
@@ -8,7 +10,7 @@ Current version: v1.0.6.3 (26/02/2021)
 
 Vencord link
 ```
-https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css
+https://raw.githubusercontent.com/kingdomkind/Translucence/master/Translucence.theme.css
 ```
 
 ## Previews
