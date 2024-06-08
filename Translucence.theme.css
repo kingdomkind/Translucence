@@ -13,23 +13,24 @@
 @import url(https://raw.githubusercontent.com/kingdomkind/Translucence/master/source.css);
 
 :root {
-	--app-blur: 6px;
-	--app-margin: 24px;
-	--app-radius: 8px; /*	-	*/
+	--app-blur: 14px;
+	--app-margin: 0px;
+	--app-radius: 0px; /*	-	*/
 	
-	--accent-hue: 156;
-	--accent-saturation: 77.5%;
-	--accent-lightness: 47.1%;
+	--accent-hue: 210;
+	--accent-saturation: 100%;
+	--accent-lightness: 65.1%;
 	--accent-opacity: 1;
 	--accent-text-color: #000; /*	-	*/
 
 	--sidebar-color: rgba(0,0,0,0.4);
 	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
 
-	--message-color: rgba(0,0,0,0.4);
+	--message-color: rgba(0,0,0,0);
 	--message-radius: 8px;
-	--message-padding-top: 8px;
+	--message-padding-top: 0px;
 	--message-padding-side: 8px; /*	-	*/
+	--mention-opacity: 0.5;
 	
 	--reply-hue: 226;
 	--reply-saturation: 77.4%;
