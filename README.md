@@ -1,5 +1,5 @@
 # Transparent Theme
-### (See original base before fork - https://github.com/CapnKitten/Translucence)
+##### (See original base before fork - https://github.com/CapnKitten/Translucence)
 
 This is a simple fork that mainly changes the settings to my liking and removes the background wallpaper to allow for transpareny fully
 
