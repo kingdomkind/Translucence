@@ -1,13 +1,7 @@
 /**
- * @name Translucence
- * @version 1.0.6.3
- * @description A translucent/frosted glass Discord theme
- * @author CapnKitten
- *
- * @website http://github.com/CapnKitten
- * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
- * @donate https://paypal.me/capnkitten
- * @invite jzJkA6Z
+ * Transparent, a simple fork of Translucence.
+ * Translucence by @CapnKitten, Transparent (fork) by @kingdomkind - github
+ * All my modifications have comments around them so you can pick out what you like
  */
 
 @import url(https://raw.githubusercontent.com/kingdomkind/Translucence/master/source.css);
@@ -15,48 +9,53 @@
 :root {
 	--app-blur: 14px;
 	--app-margin: 0px;
-	--app-radius: 0px; /*	-	*/
+	--app-radius: 0px;
 	
-	--accent-hue: 210;
-	--accent-saturation: 100%;
-	--accent-lightness: 65.1%;
+	--accent-hue: 210;			/* Changed these   */
+	--accent-saturation: 100%;  /* values for blue */
+	--accent-lightness: 65.1%;  /* accent          */
 	--accent-opacity: 1;
-	--accent-text-color: #000; /*	-	*/
+	--accent-text-color: #000;
 
 	--sidebar-color: rgba(0,0,0,0.4);
-	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
+	--main-content-color: rgba(0,0,0,0.2);
 
-	--message-color: rgba(0,0,0,0);
+	--message-color: rgba(0,0,0,0); /* Last val set to 0 to remove message boxes */
 	--message-radius: 8px;
-	--message-padding-top: 0px;
-	--message-padding-side: 8px; /*	-	*/
+	--message-padding-top: 0px; /* Padding removed, make it more consise */
+	--message-padding-side: 8px;
 	--mention-opacity: 0.5;
 	
 	--reply-hue: 226;
 	--reply-saturation: 77.4%;
 	--reply-lightness: 61.8%;
-	--reply-opacity: 1; /*	-	*/
+	--reply-opacity: 1;
 
 	--textarea-color: 255,255,255;
 	--textarea-alpha: 0.1;
 	--textarea-alpha-focus: 0.15;
 	--textarea-text-color: #fff;
-	--textarea-radius: 22px;  /*	-	*/
+	--textarea-radius: 22px;
 
 	--card-color: rgba(0,0,0,0.4);
 	--card-color-hover: rgba(0,0,0,0.5);
-	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
+	--card-color-select: rgba(0,0,0,0.7);
 	
 	--button-height: 32px;
 	--button-padding: 0 16px;
 	--button-action-color: #000;
-	--button-radius: 16px; /*	-	*/
+	--button-radius: 16px;
 
 	--interactive-normal: #aaa;
 	--interactive-hover: #ddd;
 	--interactive-active: #fff;
-	--interactive-muted: #777; /*	-	*/
+	--interactive-muted: #777;
 
 	--background-modifier-hover: rgba(255,255,255,0.075);
 	--background-modifier-selected: rgba(255,255,255,0.125);
+}
+
+/* Dim background colour */
+body {
+    background-color: rgba(0, 0, 0, 0.35); /* Last value determines transparent opacity of app */
 }
